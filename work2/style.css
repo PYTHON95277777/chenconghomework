@@ -1,4 +1,37 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Times New Roman', Times, serif;
+}
 body{
     max-width: 960px;
     margin: auto;
+}
+.normal {
+    line-height: 3;
+}
+#home{
+    color: green;
+}
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(6, 180, 81);
+}
+a:hover{
+color: coral;
+    text-decoration: double;
+}
+
+.wave{
+    text-decoration: wavy underline chartreuse;
+}
+h2::after{
+    content: "😂";
+}
+
+footer p a{
+    color: rgb(211, 80, 19);
+    font-size: 12px;
+    text-align: center;
 }
