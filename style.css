@@ -9,7 +9,7 @@ body{
 }
 h1{
     text-align: center;
-    background-color: darkgray;
+    background-color: ;
     line-height: 2;
     background-image: url(https://www.xbmu.edu.cn/images/dbxx.png);
     background-repeat: repeat;
@@ -19,13 +19,13 @@ div p{
     font-size: 16px;
     line-height: 1.8;
     text-indent: 2em;
-    color: rgb(25, 209, 47);s
+    
 }
 .normal {
     line-height: 3;
 }
 #home{
-    color: green;
+    ;
 }
 a:link{
     color: blue;
@@ -40,7 +40,6 @@ color: coral;
 }
 
 .wave{
-    text-decoration: wavy underline chartreuse;
     line-height: 200%;
 }
 h2::after{
