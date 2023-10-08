@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <style>
+      .flex-container {
+        display: flex;
+        /* border: solid 1px red; */
+        flex-direction: row;
+        background: #ffac30;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+
+      ul {
+        list-style-type: none;
+        padding-inline-start: 0;
+        padding: 10px;
+      }
+
+      .flex-container li {
+        height: 100px;
+        width: 100px;
+        background-color: #fff;
+        text-align: center;
+        line-height: 100px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <ul class="flex-container">
+      <li>item1</li>
+      <li>item2</li>
+      <!-- <li>广告学1班</li>
+        <li>广告学2班</li>
+        <li>新闻学1班</li>
+        <li>新闻学2班</li>
+        <li>广告学1班</li>
+        <li>广告学2班</li> -->
+    </ul>
+  </body>
+</html>
