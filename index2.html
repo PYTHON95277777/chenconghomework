@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AIGC导航站</title>
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <!-- <link rel="stylesheet" href="color.css" /> -->
+    <style>
+      ul {
+        list-style: none;
+      }
+    </style>
+  </head>
+  <body class="text-gray-950">
+    <!-- 头部 -->
+    <h1
+      class="font-sans font-bold text-2xl text-pink-950 p-8 text-center border-b border-pink-100 border-solid shadow-sm"
+      style="
+        background-image: url('https://tailwindcss.com/_next/static/media/docs@tinypng.d9e4dcdc.png');
+      "
+    >
+      AIGC 资源导航
+    </h1>
+    <div class="bg-gray-100">
+      <div class="container mx-auto p-8">
+        <div class="flex items-center gap-2 mb-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="text-pink-950"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M5 8.5A2.5 2.5 0 0 1 7.5 6H9V4.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L9.41 8.658A.25.25 0 0 1 9 8.466V7H7.5A1.5 1.5 0 0 0 6 8.5V11H5V8.5Z"
+            />
+            <path
+              fill-rule="evenodd"
+              d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435Zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134Z"
+            />
+          </svg>
+          <h2 id="home" class="underwave text-lg text-gray-500">
+            国产文本生成工具
+          </h2>
+        </div>
+
+        <div class="flex gap-x-16 gap-y-8 flex-wrap mb-8">
+          <div class="card grow md:w-64 md:grow-0">
+            <a href="https://xinghuo.xfyun.cn">
+              <div
+                class="flex items-center gap-4 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+              >
+                <img
+                  src="https://xinghuo.xfyun.cn/spark-icon.ico"
+                  class="block w-12 h-12"
+                />
+                <div>
+                  <h3 class="font-bold mb-2">讯飞星火认知大模型</h3>
+                  <p class="text-xs text-gray-400">
+                    科大讯飞开发的大模型，相对而言，对中文的理解更具优势。
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card grow md:w-64 md:grow-0">
+            <a href="https://yiyan.baidu.com">
+              <div
+                class="flex items-center gap-4 h-28 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              >
+                <img
+                  src="https://th.bing.com/th/id/R.e3f8dd93251b9f0dd91f03771e06cdad?rik=U%2fjlXNL26q%2fRpA&riu=http%3a%2f%2fwww.gptoky.com%2fwp-content%2fuploads%2f2023%2f05%2fwxyy.png&ehk=EPrZJbqjpe3fBrBZd0Ps5IaU6waYI1Yy86mIcM%2bNQBE%3d&risl=&pid=ImgRaw&r=0"
+                  class="block w-12 h-12"
+                />
+                <div>
+                  <h3 class="font-bold mb-2">文心一言</h3>
+                  <p class="text-xs text-gray-400">百度开发的大模型。</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card grow md:w-64 md:grow-0">
+            <a href="https://yiyan.baidu.com">
+              <div
+                class="flex items-center gap-4 h-28 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              >
+                <img
+                  src="https://th.bing.com/th/id/R.e3f8dd93251b9f0dd91f03771e06cdad?rik=U%2fjlXNL26q%2fRpA&riu=http%3a%2f%2fwww.gptoky.com%2fwp-content%2fuploads%2f2023%2f05%2fwxyy.png&ehk=EPrZJbqjpe3fBrBZd0Ps5IaU6waYI1Yy86mIcM%2bNQBE%3d&risl=&pid=ImgRaw&r=0"
+                  class="block w-12 h-12"
+                />
+                <div>
+                  <h3 class="font-bold mb-2">文心一言</h3>
+                  <p class="text-xs text-gray-400">百度开发的大模型。</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card grow md:w-64 md:grow-0">
+            <a href="https://xinghuo.xfyun.cn">
+              <div
+                class="flex items-center gap-4 md:w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+              >
+                <img
+                  src="https://xinghuo.xfyun.cn/spark-icon.ico"
+                  class="block w-12 h-12"
+                />
+                <div>
+                  <h3 class="font-bold mb-2">讯飞星火认知大模型</h3>
+                  <p class="text-xs text-gray-400">
+                    科大讯飞开发的大模型，相对而言，对中文的理解更具优势。
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card grow md:w-64 md:grow-0">
+            <a href="https://yiyan.baidu.com">
+              <div
+                class="flex items-center gap-4 h-28 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              >
+                <img
+                  src="https://th.bing.com/th/id/R.e3f8dd93251b9f0dd91f03771e06cdad?rik=U%2fjlXNL26q%2fRpA&riu=http%3a%2f%2fwww.gptoky.com%2fwp-content%2fuploads%2f2023%2f05%2fwxyy.png&ehk=EPrZJbqjpe3fBrBZd0Ps5IaU6waYI1Yy86mIcM%2bNQBE%3d&risl=&pid=ImgRaw&r=0"
+                  class="block w-12 h-12"
+                />
+                <div>
+                  <h3 class="font-bold mb-2">文心一言</h3>
+                  <p class="text-xs text-gray-400">百度开发的大模型。</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card grow md:w-64 md:grow-0">
+            <a href="https://yiyan.baidu.com">
+              <div
+                class="flex items-center gap-4 h-28 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              >
+                <img
+                  src="https://th.bing.com/th/id/R.e3f8dd93251b9f0dd91f03771e06cdad?rik=U%2fjlXNL26q%2fRpA&riu=http%3a%2f%2fwww.gptoky.com%2fwp-content%2fuploads%2f2023%2f05%2fwxyy.png&ehk=EPrZJbqjpe3fBrBZd0Ps5IaU6waYI1Yy86mIcM%2bNQBE%3d&risl=&pid=ImgRaw&r=0"
+                  class="block w-12 h-12"
+                />
+                <div>
+                  <h3 class="font-bold mb-2">文心一言</h3>
+                  <p class="text-xs text-gray-400">百度开发的大模型。</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <ul class="normal">
+          <li>
+            <a href="https://xinghuo.xfyun.cn">讯飞星火认知大模型</a>
+          </li>
+          <li>
+            <a href="https://yiyan.baidu.com">文心一言</a>
+          </li>
+          <li>
+            <a href="https://tongyi.aliyun.com/">通义千问</a>
+          </li>
+          <li>
+            <a href="https://www.doubao.com/">豆包</a>
+          </li>
+        </ul>
+        <h2 class="underwave">国外文本生成工具</h2>
+        <ul>
+          <li>
+            <a href="https://bing.com/chat">Bing Chat</a>
+          </li>
+          <li>
+            <a href="https://chat.openai.com">ChatGPT</a>
+          </li>
+          <li>
+            <a href="https://claude.ai/">Claude</a>
+          </li>
+        </ul>
+        <hr />
+      </div>
+    </div>
+    <!-- 页脚部分 -->
+    <footer class="bg-gray-700 flex h-20 justify-center items-center">
+      <p class="text-center text-xs text-gray-50">
+        <a href="https://yangzh.cn">yangzh.cn</a>
+      </p>
+    </footer>
+  </body>
+</html>
