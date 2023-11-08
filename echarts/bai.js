@@ -32,7 +32,7 @@ const countryColors = {
 };
 $.when(
   $.getJSON('https://fastly.jsdelivr.net/npm/emoji-flags@1.3.0/data.json'),
-  $.getJSON(ROOT_PATH + '/data/asset/data/life-expectancy-table.json')
+  $.getJSON('life-expectancy-table.json')
 ).done(function (res0, res1) {
   const flags = res0[0];
   const data = res1[0];
