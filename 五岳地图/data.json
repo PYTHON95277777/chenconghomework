@@ -1,0 +1,116 @@
+{
+    "storymap": {
+        "call_to_action": true,
+        "call_to_action_text": "",
+        "map_as_image": false,
+        "map_type": "stamen:toner-labels",
+        "slides": [
+            {
+                "date": "2023-10-20",
+                "location": {
+                    "line": true
+                },
+                "media": {
+                    "caption": "五岳，中华传统文化中五大名山的总称。",
+                    "credit": "",
+                    "url": "https://osscc9527.oss-ap-southeast-1.aliyuncs.com/%E4%BA%94%E5%B2%B3%E7%8B%AC%E5%B0%8A.png"
+                },
+                "text": {
+                    "headline": "中华五岳",
+                    "text": "基于地图的交互叙事作品"
+                },
+                "type": "overview"
+            },
+            {
+                "date": "2013-10-20",
+                "location": {
+                    "lat": 34.519916,
+                    "line": true,
+                    "lon": 113.021371,
+                    "zoom": 10
+                },
+                "media": {
+                    "caption": "海拔1492米",
+                    "credit": "",
+                    "url": "https://osscc9527.oss-ap-southeast-1.aliyuncs.com/%E4%B8%AD%E5%B2%B3%E5%B5%A9%E5%B1%B1.png"
+                },
+                "text": {
+                    "headline": "中越嵩山",
+                    "text": "嵩山，五岳之“中岳”，秦岭山系东延的余脉，位于河南省郑州市登封市，地理坐标为北纬34°23′31″—34°35′53″，东经112°56′07″—113°11′32″，西起洛阳龙门东侧，向东逐渐转向东北一直延伸到新密以北，东西绵亘近百千米，南北宽约20千米。"
+                }
+            },
+            {
+                "date": "",
+                "location": {
+                    "lat": 34.519916,
+                    "line": true,
+                    "lon": 113.021371,
+                    "zoom": 8
+                },
+                "media": {
+                    "caption": "海拔1545米",
+                    "credit": "",
+                    "url": "https://osscc9527.oss-ap-southeast-1.aliyuncs.com/%E4%B8%9C%E5%B2%B3%E6%B3%B0%E5%B1%B1.png"
+                },
+                "text": {
+                    "headline": "东岳泰山",
+                    "text": "泰山，又名岱山、岱宗、岱岳、东岳、泰岳，为五岳之一，有“五岳之首”“天下第一山”之称。位于山东省中部，隶属于泰安市，绵亘于泰安、济南、淄博三市之间，总面积25000公顷，主峰玉皇顶海拔约1545米。"
+                }
+            },
+            {
+                "date": "",
+                "location": {
+                    "lat": 39.667618,
+                    "line": true,
+                    "lon": 113.731052,
+                    "zoom": 8
+                },
+                "media": {
+                    "caption": "海拔2016.8米",
+                    "credit": "",
+                    "url": "https://osscc9527.oss-ap-southeast-1.aliyuncs.com/%E5%8C%97%E5%B2%B3%E6%81%92%E5%B1%B1.png"
+                },
+                "text": {
+                    "headline": "北岳恒山",
+                    "text": "狭义的恒山，即所谓“北岳恒山”，亦名“太恒山”，古称玄武山、崞山，高是山，玄岳等，明末清初被确定为“五岳”之北岳恒山。位于山西省浑源县城南10公里处，主峰天峰岭海拔2016.8米，号称“人天北柱”、“绝塞名山”。"
+                }
+            },
+            {
+                "date": "",
+                "location": {
+                    "lat": 34.497647,
+                    "line": true,
+                    "lon": 110.073028,
+                    "zoom": 8
+                },
+                "media": {
+                    "caption": "海拔2160.5米",
+                    "credit": "",
+                    "url": "https://osscc9527.oss-ap-southeast-1.aliyuncs.com/%E8%A5%BF%E5%B2%B3%E5%8D%8E%E5%B1%B1.png"
+                },
+                "text": {
+                    "headline": "西岳华山",
+                    "text": "华山，古称“西岳”，雅称“太华山”，为五岳之一，位于陕西省渭南市华阴市，在省会西安以东120千米处。南接秦岭山脉，北瞰黄渭，自古以来就有“奇险天下第一山”的说法。"
+                }
+            },
+            {
+                "date": "",
+                "location": {
+                    "lat": 27.27567,
+                    "line": true,
+                    "lon": 112.722068,
+                    "zoom": 8
+                },
+                "media": {
+                    "caption": "海拔1300.2米",
+                    "credit": "",
+                    "url": "https://osscc9527.oss-ap-southeast-1.aliyuncs.com/%E8%A5%BF%E5%B2%B3%E5%8D%8E%E5%B1%B1.png"
+                },
+                "text": {
+                    "headline": "南岳衡山",
+                    "text": "衡山，又名南岳、寿岳、南山，主体部分位于湖南省衡阳市南岳区、衡山县和衡阳县东部。据战国时期《甘石星经》记载，因其位于星座二十八宿的轸星之翼，“变应玑衡”，“铨德钧物”，犹如衡器，可称天地，故名衡山。"
+                }
+            }
+        ]
+    }
+}
