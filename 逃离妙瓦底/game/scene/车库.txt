@@ -1,0 +1,7 @@
+changeBg:废弃车库.jpg;
+:这里似乎没人…… -next;
+changeFigure:拿刀打手.png;
+playEffect:惊吓.wav -next;
+changeFigure:none;
+intro:你被突然出现的持刀打手吓死！？
+choose:回到计划A:计划A.txt|重新选择计划:选择逃生计划.txt;

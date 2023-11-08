@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AIGC导航站</title>
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <!-- <link rel="stylesheet" href="color.css" /> -->
+    <style>
+      ul {
+        list-style: none;
+      }
+    </style>
+  </head>
+  <body class="text-gray-950">
+    <!-- 头部 -->
+    <h1
+      class="font-sans font-bold text-2xl text-pink-950 p-8 text-center border-b border-pink-100 border-solid shadow-sm"
+      style="
+        background-image: url('https://tailwindcss.com/_next/static/media/docs@tinypng.d9e4dcdc.png');
+      "
+    >
+      AIGC 资源导航
+    </h1>
+    <div class="bg-gray-100">
+      <div class="container mx-auto p-8">
+        <div class="flex items-center gap-2 mb-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="text-pink-950"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M5 8.5A2.5 2.5 0 0 1 7.5 6H9V4.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L9.41 8.658A.25.25 0 0 1 9 8.466V7H7.5A1.5 1.5 0 0 0 6 8.5V11H5V8.5Z"
+            />
+            <path
+              fill-rule="evenodd"
+              d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 0 1 0-2.098L6.95.435Zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134Z"
+            />
+          </svg>
+          <h2 id="home" class="underwave text-lg text-gray-500">
+            国产AIGC工具
+          </h2>
+        </div>
+
+        <div class="flex gap-x-16 gap-y-8 flex-wrap mb-8">
+          <div class="card grow md:w-64 md:grow-0">
+            <a href="https://xinghuo.xfyun.cn">
+              <div
+                class="flex items-center gap-4 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+              >
+                <img
+                  src="https://ai-bot.cn/wp-content/uploads/2023/04/xinghuo-xfyun-icon.png"
+                  class="block w-12 h-12"
+                />
+                <div>
+                  <h3 class="font-bold mb-2">讯飞星火=</h3>
+                  <p class="text-xs text-gray-400">
+                    科大讯飞开发的大模型，相对而言，对中文的理解更具优势。
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card grow md:w-64 md:grow-0">
+            <a href="https://www.doubao.com/">
+              <div
+                class="flex items-center gap-4 h-28 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              >
+                <img
+                  src="https://p9-flow-imagex-sign.byteimg.com/ocean-cloud-tos/FileBizType.BIZ_BOT_ICON/3251350_1697011106512121056.png~tplv-a9rns2rl98-image-qvalue.jpeg?x-expires=1702023453&x-signature=UGiBm9KJAbXJew2iXWTYwO4ajFY%3D"
+                  class="block w-12 h-12"
+                />
+                <div>
+                  <h3 class="font-bold mb-2">豆包</h3>
+                  <p class="text-xs text-gray-400">由字节跳动创造。</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card grow md:w-64 md:grow-0">
+            <a href="https://yiyan.baidu.com">
+              <div
+                class="flex items-center gap-4 h-28 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              >
+                <img
+                  src="https://ai-bot.cn/wp-content/uploads/2023/03/baidu-yiyan-icon.png"
+                  class="block w-12 h-12"
+                />
+                <div>
+                  <h3 class="font-bold mb-2">文心一言</h3>
+                  <p class="text-xs text-gray-400">百度开发的大模型。</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card grow md:w-64 md:grow-0">
+            <a href="https://qianwen.aliyun.com">
+              <div
+                class="flex items-center gap-4 h-28 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              >
+                <img
+                  src="https://ai-bot.cn/wp-content/uploads/2023/04/tongyi-aliyun-icon.png"
+                  class="block w-12 h-12"
+                />
+                <div>
+                  <h3 class="font-bold mb-2">通义千问</h3>
+                  <p class="text-xs text-gray-400">阿里巴巴推出的类ChatGPT响应人类指令的大模型。</p>
+                </div>
+              </div>
+            </a>
+          </div>
+      
+          
+          <div class="card grow md:w-64 md:grow-0">
+            <a href="https://jsai.cc/ai/create">
+              <div
+                class="flex items-center gap-4 h-28 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              >
+                <img
+                  src="https://ai-bot.cn/wp-content/uploads/2023/03/js-design-icon.png"
+                  class="block w-12 h-12"
+                />
+                <div>
+                  <h3 class="font-bold mb-2">即时设计</h3>
+                  <p class="text-xs text-gray-400">由文本描述生成可编辑的原型设计稿。</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card grow md:w-64 md:grow-0">
+            <a href="https://www.x-design.com/">
+              <div
+                class="flex items-center gap-4 h-28 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              >
+                <img
+                  src="https://ai-bot.cn/wp-content/uploads/2023/05/meitu-aigc-icon.png"
+                  class="block w-12 h-12"
+                />
+                <div>
+                  <h3 class="font-bold mb-2">美图AI文生图</h3>
+                  <p class="text-xs text-gray-400">美图推出的AI文本生成图片的工具。</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card grow md:w-64 md:grow-0">
+            <a href="https://yige.baidu.com/">
+              <div
+                class="flex items-center gap-4 h-28 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              >
+                <img
+                  src="https://ai-bot.cn/wp-content/uploads/2023/03/paddlepaddle-icon.png"
+                  class="block w-12 h-12"
+                />
+                <div>
+                  <h3 class="font-bold mb-2">文心一格</h3>
+                  <p class="text-xs text-gray-400">百度推出的AI艺术和创意辅助平台。</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card grow md:w-64 md:grow-0">
+            <a href="https://tongyi.aliyun.com/wanxiang">
+              <div
+                class="flex items-center gap-4 h-28 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              >
+                <img
+                  src="https://ai-bot.cn/wp-content/uploads/2023/04/tongyi-aliyun-icon.png"
+                  class="block w-12 h-12"
+                />
+                <div>
+                  <h3 class="font-bold mb-2">通义万相</h3>
+                  <p class="text-xs text-gray-400">阿里推出的AI绘画创作模型。</p>
+                </div>
+              </div>
+            </a>
+          </div>
+   
+          <div class="card grow md:w-64 md:grow-0">
+            <a href="https://fanyi.xfyun.cn/console/trans/text">
+              <div
+                class="flex items-center gap-4 h-28 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              >
+                <img
+                  src="https://ai-bot.cn/wp-content/uploads/2023/04/fanyi-xfyun-icon.png"
+                  class="block w-12 h-12"
+                />
+                <div>
+                  <h3 class="font-bold mb-2">讯飞智能翻译</h3>
+                  <p class="text-xs text-gray-400">科大讯飞推出的人工智能翻译平台</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card grow md:w-64 md:grow-0">
+            <a href="https://translate.volcengine.com/">
+              <div
+                class="flex items-center gap-4 h-28 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              >
+                <img
+                  src="https://ai-bot.cn/wp-content/uploads/2023/04/translate-voclengine-icon.png"
+                  class="block w-12 h-12"
+                />
+                <div>
+                  <h3 class="font-bold mb-2">火山翻译</h3>
+                  <p class="text-xs text-gray-400">字节跳动推出的智能翻译工具。</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card grow md:w-64 md:grow-0">
+            <a href="https://sight.youdao.com/">
+              <div
+                class="flex items-center gap-4 h-28 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              >
+                <img
+                  src="https://ai-bot.cn/wp-content/uploads/2023/06/jianwai-icon.png"
+                  class="block w-12 h-12"
+                />
+                <div>
+                  <h3 class="font-bold mb-2">网易见外</h3>
+                  <p class="text-xs text-gray-400">网易推出的AI智能翻译平台。</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="card grow md:w-64 md:grow-0">
+            <a href="https://translate.alibaba.com/">
+              <div
+                class="flex items-center gap-4 h-28 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              >
+                <img
+                  src="https://ai-bot.cn/wp-content/uploads/2023/04/translate-alibaba-icon.png"
+                  class="block w-12 h-12"
+                />
+                <div>
+                  <h3 class="font-bold mb-2">阿里翻译</h3>
+                  <p class="text-xs text-gray-400">阿里巴巴达摩院推出的多领域多语种的在线机器翻译。</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+
+        <hr />
+      </div>
+    </div>
+    <!-- 页脚部分 -->
+    <footer class="bg-gray-700 flex h-20 justify-center items-center">
+      <p class="text-center text-xs text-gray-50">
+        <a href="https://github.com/PYTHON95277777">ChenCong.github</a>
+      </p>
+    </footer>
+  </body>
+</html>

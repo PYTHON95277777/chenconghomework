@@ -1,0 +1,5 @@
+changeBg:废弃厂房.jpg -next;
+:这里有扇门，难道是出路?;
+playEffect:开门爆炸声.mp3;
+:不好，是炸弹！快跑!;
+changeScene:炸死.txt;

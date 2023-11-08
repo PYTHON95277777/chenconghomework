@@ -1,0 +1,3 @@
+changeBg:废旧楼梯.jpg;
+:这里似乎没有巡逻的打手，我们过去看看。;
+changeScene:枪毙死.txt;

@@ -1,0 +1,6 @@
+changeBg:禁闭室内.jpg;
+:你已经被打的遍体鳞伤 -next;
+setTextbox:on;
+:你选择屈服，抗拒，还是逃跑？;
+intro:这是一个影响深远的选择，请慎重！
+choose:屈服:选择屈服.txt|抗拒:选择抗拒.txt|逃跑:选择逃跑.txt

@@ -1,0 +1,3 @@
+changeBg:出路改.jpg;
+:恭喜你，带领众人成功找到出路！;
+changeScene:第四幕-逃离之路.txt;

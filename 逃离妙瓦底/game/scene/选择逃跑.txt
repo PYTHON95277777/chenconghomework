@@ -1,0 +1,4 @@
+changeBg:螺旋楼梯.jpg.
+:你慌不择路，逃进了一个废弃大楼，像无头苍蝇一样摸不着方向；
+setTextbox:hide;
+changeScene:坠楼死.txt

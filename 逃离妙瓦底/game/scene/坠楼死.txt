@@ -1,0 +1,4 @@
+playEffect:坠楼声.mp3 -next;
+changeBg:黑暗大楼.jpg;
+intro:你被打手发现，带到一座废弃的大楼，被推下楼顶，粉身碎骨。
+changeScene:第二幕-1被殴打后的选择.txt;

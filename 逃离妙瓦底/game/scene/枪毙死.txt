@@ -1,0 +1,4 @@
+changeBg:被射杀.jpg;
+playEffect:毛瑟枪声.wav;
+intro:很不幸，你被埋伏在楼顶的刘志雄及打手射杀
+choose:回到计划A:计划A.txt|重新选择计划:选择逃生计划.txt;

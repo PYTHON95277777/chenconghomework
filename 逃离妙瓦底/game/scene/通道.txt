@@ -1,0 +1,3 @@
+changeBg:幽暗通道.jpg;
+:这是一条漆黑的通道，不知道一直延伸到哪，往前走走看？;
+changeScene:逃出生天.txt;

@@ -1,0 +1,17 @@
+changeBg:办公室3.jpg;
+intro:你趁公司经理不在，偷偷溜进了财务室|翻阅账目，你发现这居然是一个电信诈骗公司；
+setTextbox:on -next;
+:你正想离开，一转身，发现一名拿着枪、有纹身、面目凶狠的男人站在你面前;
+changeFigure:拿枪打手.png;
+changeFigure:none;
+playEffect:打晕.mp3 -next;
+intro:你被打晕了过去|一醒来，你发现你在一个幽暗的密室中
+changeBg:禁闭室内.jpg;
+changeFigure:王美丽.png;
+王美丽:没想到，你个臭小子还挺机灵，居然发现了我们公司的秘密！刀郎，给我狠狠教训他！;
+changeFigure:none -next;
+changeFigure:拿刀打手.png;
+playEffect:斗殴打架.mp3;
+changeFigure:none;
+:你发出了绝望的哀嚎，痛恨自己的愚蠢和幼稚，天上哪里会掉馅饼，你已经跳入了一个圈套，社会的黑暗现实将逐渐展示在你眼前 -next;
+changeScene:第二幕-1被殴打后的选择.txt;

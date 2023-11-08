@@ -1,0 +1,5 @@
+Game_name:欢迎使用WebGAL！;
+Game_key:c4d5d657ff309;
+Package_name:;
+Title_bgm:悬疑音效2.mp3;
+Title_img:黑暗雨夜.jpg;

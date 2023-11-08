@@ -1,0 +1,7 @@
+changeBg:幽暗巷道.jpg;
+:不知道为什么，你觉得这条巷道似乎有点似曾相识？;
+playEffect:走近的脚步声.wav;
+:不知从哪里传来的脚步声，你赶紧回头…… ;
+playEffect:枪杀声.mp3;
+intro:很遗憾，你被打手发现并射杀
+choose:回到计划A:计划A.txt|重新选择计划:选择逃生计划.txt;

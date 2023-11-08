@@ -1,0 +1,23 @@
+setTextbox:hide;
+intro:培训完毕后，你一路尾随刘志雄|来到了一个幽暗的巷道|你听见刘志雄的谈话声 -next
+changeBg:幽暗巷道.jpg;
+changeFigure:刘志雄1.png -right -transform={"alpha":1,"position":{"x":"0","y":"0"},"scale":{"x":"0.6","y":"0.6"},"rotation":0,"blur":0,"oldFilm":0,"dotFilm":0,"reflectionFilm":0,"glitchFilm":0,"rgbFilm":0,"godrayFilm":0} ;
+刘志雄:哈哈哈哈，没想到这次居然能骗到一个年轻的中国大学生。小陈，你功不可没啊 -next;
+setTextbox:on;
+changeFigure:陈经理3.png -left -next;
+陈经理:刘总过奖，这小子单纯的很，只要我们稍加洗脑，他就唯我们马首是瞻|
+从中国人那诈骗卷钱还不是手到擒来。;
+changeFigure:none -right -next;
+changeFigure:none -left;
+changeFigure:杨军2.png;
+杨军(恐惧):坏了，这居然一个诈骗公司！我得赶紧离开这鬼地方。;
+changeFigure:none;
+playEffect:易拉罐.wav -next;
+intro:你走的时候太不小心，踢到了一个易拉罐|打草惊蛇，被打手发现;
+:什么人！
+:你拔腿就跑,然而…… -next
+playEffect:毛瑟枪声.wav;
+changeBg:none;
+setTextbox:hide -next;
+intro:你已被枪杀，请重新选择调查方向 -next
+changeScene:调查方向选择.txt
