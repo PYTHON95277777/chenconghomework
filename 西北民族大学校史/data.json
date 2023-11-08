@@ -1,0 +1,98 @@
+{
+    "storymap": {
+        "call_to_action": true,
+        "call_to_action_text": "",
+        "map_as_image": false,
+        "map_type": "stamen:toner-labels",
+        "slides": [
+            {
+                "date": "2023-10-20",
+                "location": {
+                    "line": true
+                },
+                "media": {
+                    "caption": "",
+                    "credit": "",
+                    "url": "https://osscc9527.oss-ap-southeast-1.aliyuncs.com/1.png"
+                },
+                "text": {
+                    "headline": "西北民族大学校史",
+                    "text": "基于地图的交互叙事作品"
+                },
+                "type": "overview"
+            },
+            {
+                "date": "2013-10-20",
+                "location": {
+                    "lat": 36.626077,
+                    "line": true,
+                    "lon": 109.469607,
+                    "zoom": 10
+                },
+                "media": {
+                    "caption": "",
+                    "credit": "",
+                    "url": "https://osscc9527.oss-ap-southeast-1.aliyuncs.com/logo.png"
+                },
+                "text": {
+                    "headline": "始于延安 第一所民族高等学府",
+                    "text": "西北民族大肇始于1941年中国共产党在延安创建的民族学院，后民族学院并入延安大学，1949年延安大学更名为西北人民革命大学。"
+                }
+            },
+            {
+                "date": "",
+                "location": {
+                    "lat": 36.066746,
+                    "line": true,
+                    "lon": 103.840755,
+                    "zoom": 8
+                },
+                "media": {
+                    "caption": "1950年8月，首任校长汪锋在开学典礼上致辞",
+                    "credit": "",
+                    "url": "https://osscc9527.oss-ap-southeast-1.aliyuncs.com/2.png"
+                },
+                "text": {
+                    "headline": "西北民族学院成立",
+                    "text": "1949年9月，党在西北重镇兰州创办了“藏民问题研究班”。同年11月，藏民问题研究班扩大为藏民学校，校址暂借兰州市西三十里西果园兰州农业专科学校旧址。1950年1月，改称西北人民革命大学兰州分校第三部（简称“革大三部”）。8月，经中共中央西北局报请政务院批准，在“革大三部”的基础上正式成立了西北民族学院。"
+                }
+            },
+            {
+                "date": "",
+                "location": {
+                    "lat": 36.050215,
+                    "line": true,
+                    "lon": 103.825969,
+                    "zoom": 8
+                },
+                "media": {
+                    "caption": "五六时代 校园建设",
+                    "credit": "",
+                    "url": "https://osscc9527.oss-ap-southeast-1.aliyuncs.com/%E4%BA%94%E5%85%AD%E6%97%B6%E4%BB%A3%20%E6%A0%A1%E5%9B%AD%E5%BB%BA%E8%AE%BE.JPG"
+                },
+                "text": {
+                    "headline": "建设时期",
+                    "text": "1951年3月，学校根据原政务院《培养少数民族干部试行方案》和《筹办中央民族学院试行方案》的规定，本科设立语文系、政治系，语文系设蒙古语文、藏语文、维吾尔语文三个专业，政治系分汉、维两种语言授课班。设短期军政干部训练班和予科。学校由临时校址迁到兰州市区第二新村。"
+                }
+            },
+            {
+                "date": "",
+                "location": {
+                    "lat": 36.050215,
+                    "line": true,
+                    "lon": 103.825969,
+                    "zoom": 8
+                },
+                "media": {
+                    "caption": "2020年9月，西北民族大学迎来建校七十周年",
+                    "credit": "",
+                    "url": "https://osscc9527.oss-ap-southeast-1.aliyuncs.com/2020%E5%B9%B49%E6%9C%88%EF%BC%8C%E8%A5%BF%E5%8C%97%E6%B0%91%E6%97%8F%E5%A4%A7%E5%AD%A6%E8%BF%8E%E6%9D%A5%E5%BB%BA%E6%A0%A1%E4%B8%83%E5%8D%81%E5%91%A8%E5%B9%B4.png"
+                },
+                "text": {
+                    "headline": "从西北民族学院到西北民族大学",
+                    "text": "2003年4月，经教育部和国家民委批准，学校更名为西北民族大学。"
+                }
+            }
+        ]
+    }
+}
